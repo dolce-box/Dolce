@@ -1,0 +1,83 @@
+#background {
+    background: url(img/banner_D.jpg) center ;
+    background-size: cover;
+    height: 225px; width: 100%;    
+}
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 80%;
+    padding-left: 10%; padding-right: 10%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.layer {
+    padding-left: 10%; padding-right: 10%;
+}
+.texto {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 10pt;
+}
+.frase{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10%;
+}
+.container { 
+    text-align: center;
+ }
+.box{ 
+    margin:0px auto;
+    padding: 5%;  
+    height: 35%; width: 35%; 
+}
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 0pt;
+    color: black;
+}
+@media (min-width: 200px) {
+    #background { height: 223px; }
+    .titulo { font-size: 150%; }
+    .subtitle {font-size: 25%;}
+
+}
+@media (min-width: 250px) {
+    #background { height: 220px; }
+    .titulo{ font-size: 180%; }
+    .container { display: flex; justify-content:center}
+    .subtitle {font-size: 9pt;}
+    .footer {font-size: 7pt;}
+
+}
+@media (min-width: 750px) {
+    #background { height: 200px; }
+}
+@media (min-width: 950px) {
+    #background { height: 180px; }
+    .layer { margin-right: 0% ; padding-left: 8%; padding-right: 8%; display: flex; justify-content: center; align-items: center}
+    .texto { margin: 2%; float: left; max-width: 40%; font-size: 15pt;}
+    .container { margin: 2%; float: right; width: 40%; display: flex; flex-wrap: wrap;}
+    .subtitle{ font-size: 10pt;}
+    .box{ padding: 5%; height: 25%; width: 25%; }
+}
+a{
+    text-decoration: none
+}
+h1 {
+    text-decoration: none
+}
+body{
+    margin: 0%;
+}
+main {
+    justify-content: center
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 5pt;
+    margin: 5%;
+}
